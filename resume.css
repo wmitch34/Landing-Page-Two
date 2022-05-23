@@ -1,0 +1,77 @@
+#resume_container{
+    resize:none;
+    width: 76%;
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pdf_link{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    width: fit-content;
+    padding:5px;
+    border-color: black;
+    border-radius: 5%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bold; 
+    color: black;
+    
+}
+
+li {
+    display: block;
+}
+.pdf_link:hover{
+    background-color:rgb(128, 128, 128, .5);
+}
+
+.ucf_logo{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100px;
+    height: 70px;
+    text-align: left;
+}
+
+.header{
+    display: inline-block;
+    width: 100%;
+}
+
+.title{
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.resume_content{
+    resize: none;
+    margin: 50px;
+}
+
+#resume_container .resume_content h2{
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: thin;
+    font-size: 20px;
+}
+
+#resume_container .resume_content p{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#resume_container .resume_content .title h2{
+    border:none;
+}
+
+

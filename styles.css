@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background: url('images/geometric.jpg') no-repeat center center fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50;
+    background-size: 100%;
+    align-items: center;
+    box-shadow: 0px 5px 5px grey;
+    text-decoration: none;
+    
+}
+
+li{
+    display: inline;
+}
+
+.main_content_item:hover{
+    background-color:rgb(128, 128, 128, .5);
+    
+}
+
+.hambuger_menu_item:hover{
+    background-color:rgb(128, 128, 128, .5);
+    padding: 5px;
+}
+
+.main_content{
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.main_content_item {
+    border-color: grey;
+    margin: auto;
+    width: 350px;
+    min-width: 350px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 5px grey;
+    font-family: 'Nunito', sans-serif; 
+    text-decoration: none; 
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    color: black;
+}
+
+.resume_Icon{
+    background-image: url('images/file_logo.png');
+}
+
+.list_wrapper{
+    margin: auto;
+    width: 100%;
+    position: flex;
+    top: 100%;
+    left: 50%;
+    display: flex;
+    margin-top: 130px;
+}
+
+#backdrop{
+	background: url('images/geometric.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* font-family: 'Noto Sans', sans-serif; */
+	margin-top: 50px;
+}
+
+
+
+#navbar_Logo{
+    font-family: 'Nunito', sans-serif; 
+    text-decoration: none; 
+    font-size: 3rem; 
+    color:black;
+    min-width: fit-content;
+}    
+
+.hambuger_menu_item{
+    display: inline;
+    padding:5px;
+    margin: 5px;
+    border-color: black;
+    border-radius: 5%;
+    font-family: 'Nunito', sans-serif; 
+    text-decoration: none; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: black;
+    
+}
+
+#hambuger_menu{
+    display: none;
+}
+
+.non_link_title{
+    border-color: grey;
+    margin:auto;
+    width: 350px;
+    min-width: 350px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0px 5px 5px grey;
+    font-family: 'Nunito', sans-serif; 
+    text-decoration: none; 
+    font-size: 2.5rem;
+    font-weight: bold; 
+    color: black;
+}
+
+.about_me_pictures{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 350px; 
+    height: auto;
+}
+
+#about_me_content_box{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color:rgb(128, 128, 128, .5);
+    padding: 5px;
+
+}
